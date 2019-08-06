@@ -1,3 +1,3 @@
-# Headline
+# Shrey Auth Documentation
 
-> An awesome project.
+> Welcome to the documentation for Shrey Auth users.

@@ -1,0 +1,6 @@
+- [Home](/)
+- [API Docs](/api)
+  - [Authentication](api/authentication.md)
+  - [Errors](api/errors.md)
+  - [Activations](api/activations.md)
+- [Admins](/admins)
