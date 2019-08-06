@@ -4,3 +4,4 @@
   - [Errors](api/errors.md)
   - [Activations](api/activations.md)
 - [Admins](/admins)
+  - [Splash releases](/admins/splash.md)
