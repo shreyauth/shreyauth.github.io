@@ -61,15 +61,22 @@ Example response:
   "success": true,
   "key": "99CA4-BF382-32CC8-379A8",
   "activation_token": "i91xuxEVEoXs1t7z6Eda",
+	"renewal": 1581198253,
   "activation": {
     "hwid": "11392i39291",
     "device_name": "Shreyas Macbook Pro",
     "activated_at": 1564820349
+  },
+  "user": {
+	"id": 1,
+	"discord_username": "shrey#5188",
+	"discord_id": "95889183222034432",
+	"avatar_url": "https://cdn.discordapp.com/avatars/95889183222034432/93ec7a4333842a5b0335aed5f064b54d.png"
   }
 }
 ```
 
-A successful request will return the requested activation with `"success": true`. If this request is successful, it tells you that the user's activation is still valid and that you should allow them access.
+A successful request will return the requested activation with `"success": true`. If this request is successful, it tells you that the user's activation is still valid and that you should allow them access. In the case of renewal keys, you'll get a `renewal` parameter in the response that tells you their next renewal date. In the case of lifetime keys, this parameter will be ommitted from the response.
 
 
 ---
