@@ -3,5 +3,6 @@
   - [Authentication](api/authentication.md)
   - [Errors](api/errors.md)
   - [Activations](api/activations.md)
+  - [Keys](api/keys.md)
 - [Admins](/admins)
   - [Splash releases](/admins/splash.md)
