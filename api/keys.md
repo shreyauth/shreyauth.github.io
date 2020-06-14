@@ -20,13 +20,13 @@ Example lifetime key request:
 Example renewal key request:
 ```json
 {
-    "payment_type": "card",
-    "discord_role_id": "601816059191885850",
-    "key_type": "renewal",
-    "plan": "shreyauth_200",
-    "initial_charge_amount": 500,
-    "quantity": 3,
-		"allow_unbinding": true
+  "payment_type": "card",
+  "discord_role_id": "601816059191885850",
+  "key_type": "renewal",
+  "plan": "shreyauth_200",
+  "initial_charge_amount": 500,
+  "quantity": 3,
+	"allow_unbinding": true
 }
 ```
 The `initial_charge_amount` parameter should **only** be used if you have a pricing structure that involves an initial charge of a different price from your normal subscription
