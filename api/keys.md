@@ -46,7 +46,8 @@ Example response:
       "fresh": true,
       "release_id": null,
       "trial_days": 0,
-      "user": null
+      "user": null,
+			"allow_unbinding": true
     },
     {
       "key": "4E584-F8275-A87D9-650A5",
@@ -58,7 +59,8 @@ Example response:
       "fresh": true,
       "release_id": null,
       "trial_days": 0,
-      "user": null
+      "user": null,
+			"allow_unbinding": true
     },
     {
       "key": "138AC-61FFA-C2918-9C1A3",
@@ -70,7 +72,8 @@ Example response:
       "fresh": true,
       "release_id": null,
       "trial_days": 0,
-      "user": null
+      "user": null,
+			"allow_unbinding": true
     }
   ]
 }
